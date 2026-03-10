@@ -34,6 +34,9 @@
     "name":"spr_powerup_three",
     "path":"sprites/spr_powerup_three/spr_powerup_three.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_powerup_ghost",
+    "path":"sprites/spr_powerup_ghost/spr_powerup_ghost.yy",
+  },
   "visible":true,
 }

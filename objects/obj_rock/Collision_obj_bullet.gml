@@ -1,3 +1,17 @@
+if (obj_game.powerup_time < 0)
+{
+	var _obj = choose(obj_powerup_ghost);
+	instance_create_layer(x, y, "instances", _obj);
+	obj_game.powerup_time = 20;
+}
+
+if (obj_game.powerup_time < 0)
+{
+	var _obj = choose(obj_powerup_three);
+	instance_create_layer(x, y, "instances", _obj);
+	obj_game.powerup_time = 20;
+}
+
 obj_game.points += 50;
 
 instance_destroy(other);
