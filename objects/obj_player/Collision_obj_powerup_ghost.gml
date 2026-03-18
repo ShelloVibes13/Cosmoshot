@@ -3,3 +3,4 @@ alarm[0] = 10 * 60;
 image_blend = c_white;
 image_alpha = 0.4;
 instance_destroy(other);
+audio_play_sound(snd_powerup, 0, false);

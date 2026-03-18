@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"snd_player_spawn",
+  "%Name":"snd_powerup",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -12,7 +12,7 @@
   "conversionMode":0,
   "duration":0.53696144,
   "exportDir":"",
-  "name":"snd_player_spawn",
+  "name":"snd_powerup",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_player_spawn.mp3",
+  "soundFile":"snd_powerup.mp3",
   "volume":1.0,
 }

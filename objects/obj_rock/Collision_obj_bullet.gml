@@ -1,3 +1,5 @@
+audio_play_sound(snd_shoot_rock, 0, false, 1, 0, random_range(0.6, 1.1));
+
 if (obj_game.powerup_time < 0)
 {
 	var _obj = choose(obj_powerup_three, obj_powerup_ghost);
